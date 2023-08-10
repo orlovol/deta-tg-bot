@@ -1,0 +1,6 @@
+.env
+.venv/
+Spacefile
+__pycache__
+
+.DS_Store
