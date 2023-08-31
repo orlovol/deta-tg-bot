@@ -4,44 +4,43 @@
 #
 #    pip-compile --output-file=requirements.txt --pre --strip-extras deps.in
 #
+aiofiles==23.1.0
+    # via aiogram
+aiogram==3.0.0rc2
+    # via -r deps.in
+aiohttp==3.8.5
+    # via aiogram
+aiosignal==1.3.1
+    # via aiohttp
 annotated-types==0.5.0
     # via pydantic
-anyio==4.0.0rc1
-    # via starlette
+async-timeout==4.0.3
+    # via aiohttp
+attrs==23.1.0
+    # via aiohttp
 certifi==2023.7.22
-    # via requests
+    # via aiogram
 charset-normalizer==3.2.0
-    # via requests
-click==8.1.6
-    # via uvicorn
-exceptiongroup==1.1.2
-    # via anyio
-fastapi==0.101.0
-    # via -r deps.in
-h11==0.14.0
-    # via uvicorn
-idna==3.4
+    # via aiohttp
+frozenlist==1.4.0
     # via
-    #   anyio
-    #   requests
+    #   aiohttp
+    #   aiosignal
+idna==3.4
+    # via yarl
+magic-filter==1.0.11
+    # via aiogram
+multidict==6.0.4
+    # via
+    #   aiohttp
+    #   yarl
 pydantic==2.1.1
-    # via fastapi
+    # via aiogram
 pydantic-core==2.4.0
     # via pydantic
-requests==2.31.0
-    # via -r deps.in
-sniffio==1.3.0
-    # via anyio
-starlette==0.27.0
-    # via fastapi
 typing-extensions==4.7.1
     # via
-    #   fastapi
     #   pydantic
     #   pydantic-core
-    #   starlette
-    #   uvicorn
-urllib3==2.0.4
-    # via requests
-uvicorn==0.23.2
-    # via -r deps.in
+yarl==1.9.2
+    # via aiohttp
