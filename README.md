@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repo is archived since deta.space is set to sunset on October 17, 2024.
+
 # deta-tg-bot
 
 Basic example of Telegram echo bot, using [FastAPI](https://fastapi.tiangolo.com/), [telegram webhooks](https://core.telegram.org/bots/webhooks) and deployed to [deta.space](https://deta.space/).
